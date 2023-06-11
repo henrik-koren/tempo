@@ -3,9 +3,9 @@
 	// import the microservices example
     local tempo = import '../tempo-microservices/main.jsonnet',
 
-    name: 'cluster name',
+    name: 'test-drp-kcc-to-tanzu',
     apiServer: 'https://0.0.0.0:6443',
-    namespace: 'namespace',
+    namespace: 'tempo-grafana',
     
     data: tempo,
 
